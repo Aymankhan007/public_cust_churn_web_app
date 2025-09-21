@@ -44,7 +44,7 @@ def customer_churn_prediction(input_data):
 
 # Streamlit UI
 def main():
-    st.title('Customer Churn Prediction Web App By Ayman')
+    st.title('Customer Churn Prediction App (Major Project-1)')
 
     # Get user inputs
     gender = st.selectbox("Gender", ["Male", "Female"])
@@ -82,4 +82,5 @@ def main():
         st.info(f"Churn Probability: {round(result['Model Prediction Probability']*100, 2)}%")
 
 if __name__ == '__main__':
+
     main()
